@@ -1,0 +1,30 @@
+{
+  "files.associations": {
+    "initializer_list": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "string_view": "cpp",
+    "functional": "cpp",
+    "future": "cpp",
+    "istream": "cpp",
+    "numeric": "cpp",
+    "ostream": "cpp",
+    "ranges": "cpp",
+    "shared_mutex": "cpp",
+    "stacktrace": "cpp",
+    "regex": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "valarray": "cpp",
+    "variant": "cpp",
+    "algorithm": "cpp",
+    "iterator": "cpp"
+  }
+}

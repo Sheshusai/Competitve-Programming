@@ -28,8 +28,10 @@ int main()
     }
     else
     {
-      ans = (m - 1) * (m - 1) + 1;
-      ans = ans + temp;
+      //ans = (m - 1) * (m - 1) + 1;
+      //ans = ans + temp;
+      temp = (c-1)+ (m-r);
+      ans = ans -temp;
     }
     cout << ans << endl;
   }
