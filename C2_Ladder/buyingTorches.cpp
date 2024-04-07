@@ -1,24 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+long long divide(long long a,long long b) {
+  return (a+b-1)/b;
+}
+
 int main() {
   //freopen("input.txt","r",stdin);
   //freopen("output.txt","w",stdout);
   int T;
   cin >> T;
   while(T--) {
-    int N;
-    cin >> N;
-    // aj-ai = j-i;
-    map<int,int> mp;
-    long long ans = 0;
-    for(int i=0;i<N;i++) {
-      int x;
-      cin >> x;
-      ans += mp[x-i];
-      mp[x-i]++;
-    }
+    long long x,y,k;
+    cin >> x >> y >> k;
+    long long a = k+k*y;
+    long long ans = k+ divide(a-1,x-1);
     cout << ans << endl;
+
   }
   return 0;
 }
